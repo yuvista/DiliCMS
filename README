@@ -18,7 +18,9 @@
 					);
 		4.运行http://your-url/index.php/initialize,初始化系统
 		5.欢迎来到DiliCMS的世界
-
+		
+	注：默认管理员帐号为：admin,密码为：dilicms
+	
 更新日志
 
 版本号 2.0.0
