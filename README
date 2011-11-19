@@ -16,8 +16,8 @@
 					'type'		=> 'sae',//修改default为sae.
 					'storage'   => ''//这里填写你在SAE上storage的domain名称.
 					);
-		3.运行http://your-url/index.php/initialize,初始化系统
-		4.欢迎来到DiliCMS的世界
+		4.运行http://your-url/index.php/initialize,初始化系统
+		5.欢迎来到DiliCMS的世界
 
 更新日志
 
