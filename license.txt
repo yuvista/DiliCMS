@@ -1,4 +1,4 @@
-DiliCMS开源授权协议
+﻿DiliCMS开源授权协议  
 
 DiliCMS代码 版权所有 (c) 2011，DiliCMS团队（htp://www.dilicms.com）保留所有权利。
 
