@@ -6,7 +6,7 @@
  *
  * @package		CodeIgniter
  * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc.
  * @license		http://codeigniter.com/user_guide/license.html
  * @link		http://codeigniter.com
  * @since		Version 1.0
@@ -30,9 +30,9 @@ function &DB($params = '', $active_record_override = NULL)
 	if (is_string($params) AND strpos($params, '://') === FALSE)
 	{
 		// Is the config file in the environment folder?
-		if ( ! defined('ENVIRONMENT') OR ! file_exists($file_path = APPPATH.'config/'.ENVIRONMENT.'/database.php'))
+		if ( ! defined('ENVIRONMENT') OR ! file_exists($file_path = DILICMS_SHARE_PATH.'config/'.ENVIRONMENT.'/database.php'))
 		{
-			if ( ! file_exists($file_path = APPPATH.'config/database.php'))
+			if ( ! file_exists($file_path = DILICMS_SHARE_PATH.'config/database.php'))
 			{
 				show_error('The configuration file database.php does not exist.');
 			}

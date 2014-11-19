@@ -190,7 +190,8 @@ if (defined('ENVIRONMENT'))
 
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
-
+//加载DiliCMS常量
+require_once FCPATH . 'shared/config/constant.php';
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
